@@ -29,7 +29,7 @@ GEM
     public_suffix (4.0.4)
     rack (2.2.2)
     rainbow (3.0.0)
-    rake (10.5.0)
+    rake (13.0.1)
     rchardet (1.8.0)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
@@ -82,7 +82,7 @@ DEPENDENCIES
   app_version_tasks
   bundler (~> 1.17)
   mi-envio-ruby!
-  rake (~> 10.0)
+  rake (~> 13.0)
   rspec (~> 3.0)
   rubocop-airbnb (~> 3.0)
   rubocop-rspec (~> 1.30)
