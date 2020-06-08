@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 require 'mi_envio/version.rb'
+require 'mi_envio/client.rb'
+require 'mi_envio/endpoints.rb'
+require 'mi_envio/address.rb'
+require 'mi_envio/connection.rb'
 
 module MiEnvio
   def self.config
