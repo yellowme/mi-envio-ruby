@@ -4,5 +4,7 @@ module MiEnvio
       path: Endpoints::POST_ADDRESS,
       body: payload
     )
+  rescue MiEnvio::Error => e
+    e
   end
 end
