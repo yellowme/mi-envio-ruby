@@ -5,6 +5,7 @@ require 'mi_envio/client.rb'
 require 'mi_envio/endpoints.rb'
 require 'mi_envio/address.rb'
 require 'mi_envio/connection.rb'
+require 'mi_envio/error.rb'
 
 module MiEnvio
   def self.config
